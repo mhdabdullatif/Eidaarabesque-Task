@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Udacity Sign in & Sin up page">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Assignments">
+  <meta name="author" content="Abdullatif Eida">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title> Abdullatif Eida - Sign in Page </title>
+<link rel="icon" href="../Assest/Images/AE-Logo.svg.png" type="image/gif" sizes="16x16">     
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href="../Assest/css/style.css" icon-middle rel="Stylesheet" type="text/css">
+<link href="../Assest/css/signUp&In.css" icon-middle rel="Stylesheet" type="text/css">
+<link href="../Assest/css/responsivesignUp&In.css" icon-middle rel="Stylesheet" type="text/css">
+
+
+</head>
+<body>
+    <div role="banner">
+        <div class="header_header__top">
+            <a href="./index.html">
+                <div class="header_logo-container">
+                    <div class="vds-logo vds-logo--default" style="height: 30px; width: 180px;">
+                        <img style="margin-top: -46px;" src="https://logos.textgiraffe.com/logos/logo-name/Eida-designstyle-summer-m.png" width="110" height="110" alt="" loading="lazy">
+                        <title>Eida Logo</title>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="form sign-in">
+                <h2 class="h1">Sign in to your account</h2>
+                <div class="social-media">
+                    <ul>
+                        <li><a  target="_blank" href="https://www.facebook.com/MHD.ANSHTAYN.ALARAP" title="Facebook" class="social__icon social__iconins fab fa-google" > </a> Signin with Google </li> 
+
+                       <li><a  target="_blank" href="https://www.facebook.com/MHD.ANSHTAYN.ALARAP" title="Facebook" class="social__icon social__iconf fab fa-facebook-f" ></a> Signin with Facebook </li> 
+
+                    </ul>
+                </div>
+              <form action="./index.html" method="POST">
+              <label>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+             </label>
+              <label>
+                <input type="password" name="password" id="userPassword" placeholder="Enter your Password" required > 
+             </label>
+             <i class="far fa-eye eye" id="togglePassword"></i>
+              <button class="button submit" type="submit">Sign In</button>
+            </form>
+            <span class="our-terms">
+                By clicking Sign In, you agree to our 
+                <a style="color: rgba(1, 122, 155, 0.685); text-decoration: none;" href="./Term-of-Use.html">Terms of Use</a> 
+                and our 
+                <a style="color: rgba(1, 122, 155, 0.685); text-decoration: none;"  href="./Term-of-Use.html">Privacy Policy</a>.</span>
+                <p class="forgot-pass">Forgot Password ?</p>
+
+            </div>
+         
+            <div class="sub-cont">
+              <div class="img">
+                <div class="img-text m-up">
+                  <h2 style="color: #11161a;">New here?</h2>
+                  <p style="color: #11161a;">Sign In and Build skills for today, tomorrow, and beyond! <br> Education to future-proof your career.</p>
+                </div>
+                <div class="img-text m-in">
+                  <h2>One of us?</h2>
+                  <p style="color: #11161a;">Sign Up and Build skills for today, tomorrow, and beyond! <br> Education to future-proof your career.</p>
+                </div>
+                <div class="img-btn">
+                  <span class="m-up">Sign Up</span>
+                  <span class="m-in">Sign In</span>
+                </div>
+              </div>
+              <div class="form sign-up">
+                <h2 class="h1"> Create your account </h2>
+                <div class="social-media">
+                    <ul>
+                        <li><a  target="_blank" href="https://www.facebook.com/MHD.ANSHTAYN.ALARAP" title="Facebook" class="social__icon social__iconins fab fa-google" > </a> Signin with Google </li> 
+
+                       <li><a  target="_blank" href="https://www.facebook.com/MHD.ANSHTAYN.ALARAP" title="Facebook" class="social__icon social__iconf fab fa-facebook-f" ></a> Signin with Facebook </li> 
+
+                    </ul>
+                </div>
+                <form action="./index.html" method="POST">
+                <label>
+                  <input type="text" name="firstName" placeholder="Enter your First tName" required>
+                </label>
+                <label>
+                    <input type="text" name="lastName" placeholder="Enteyour Last Name" required>
+                </label>
+                <label>
+                  <input type="email" name="email" placeholder="Enter Your Email" required>
+                </label>
+              <label>
+                <input type="password" name="password" id="userPasswordup" placeholder="Enter your Password" required > 
+             </label>
+             <i class="far fa-eye eye" id="togglePasswordup"></i>
+                <button type="submit" class="submit">Sign Up Now</button>
+            </form>
+            <span class="our-terms-Up">
+                By clicking Sign Up, you agree to our 
+                <a style="color: rgba(1, 122, 155, 0.685); text-decoration: none;" href="./Term-of-Use.html">Terms of Use</a> 
+                and our 
+                <a style="color: rgba(1, 122, 155, 0.685); text-decoration: none;"  href="./Term-of-Use.html">Privacy Policy</a>.</span>
+              </div>
+            </div>
+          </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="../Assest/js/SignIn.js"></script>
+</body>
+</html>
